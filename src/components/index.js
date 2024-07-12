@@ -11,14 +11,14 @@ export const header_icons = [
   },
   {
     image: viber,
-    text: "Book Consultation",
-    caption: "Second Medical Opinion",
+    text: "985 896 2222",
+    caption: "Call Us On",
     width: 35,
   },
   {
     image: email,
-    text: "Book Consultation",
-    caption: "Second Medical Opinion",
+    text: "info@mediretreats.com",
+    caption: "Email Us On",
     width: 35,
   },
 ];
