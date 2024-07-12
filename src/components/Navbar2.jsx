@@ -1,6 +1,6 @@
 import React from 'react'
 import { nav2_links } from '.'
-import "../CSS files/Navbar2.css"
+import "../CSS files/components/Navbar2.css"
 
 const Navbar2 = () => {
   return (

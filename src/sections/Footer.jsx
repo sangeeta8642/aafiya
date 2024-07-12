@@ -1,5 +1,5 @@
 import React from "react";
-import "../CSS files/Footer.css";
+import "../CSS files/sections/Footer.css";
 import {
   imp_links,
   top_hospital,
@@ -7,7 +7,7 @@ import {
   med_dest,
 } from "../components/index";
 import logo from "../assets/logo.jfif";
-import LazyImage from "./LazyImage";
+import LazyImage from "../components/LazyImage";
 
 const Footer = () => {
   return (
@@ -18,7 +18,7 @@ const Footer = () => {
           <ul>
             {imp_links.map((link) => (
               <li>
-                <span className="dash">-</span> {link.title}
+                <span className="dash" key={link.title}>-</span> {link.title}
               </li>
             ))}
           </ul>
@@ -28,7 +28,7 @@ const Footer = () => {
           <ul>
             {top_hospital.map((link) => (
               <li>
-                <span className="dash">-</span> {link.name}
+                <span className="dash" key={link.name}>-</span> {link.name}
               </li>
             ))}
           </ul>
@@ -38,7 +38,7 @@ const Footer = () => {
           <ul>
             {speciality_treatments.map((link) => (
               <li>
-                <span className="dash">-</span> {link.name}
+                <span className="dash" key={link.name}>-</span> {link.name}
               </li>
             ))}
           </ul>
@@ -75,7 +75,7 @@ const Footer = () => {
           <ul>
             {med_dest.map((link) => (
               <li>
-                <span className="dash">-</span> {link.name}
+                <span className="dash" key={link.name}>-</span> {link.name}
               </li>
             ))}
           </ul>

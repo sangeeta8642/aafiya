@@ -1,5 +1,5 @@
 import React from "react";
-import "../CSS files/Overview.css"
+// import "../CSS files/sections/Overview.css"
 import image1 from "../assets/image1.jfif"
 
 const Overview = () => {

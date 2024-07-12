@@ -5,12 +5,11 @@ import medanta from "../assets/medanta.jpg";
 import jaslok from "../assets/jaslok.jfif"
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import OwlCarousel from "react-owl-carousel";
-import "../CSS files/Hospitals.css";
-import LazyImage from "./LazyImage";
+import "../CSS files/sections/Hospitals.css";
+import LazyImage from "../components/LazyImage";
 
-function Doctors() {
+function Hospitals() {
   const options = {
-    // margin:20,
     dots: true,
     responsiveClass: true,
     smartSpeed: 1000,
@@ -153,4 +152,4 @@ function Doctors() {
   );
 }
 
-export default Doctors;
+export default Hospitals;

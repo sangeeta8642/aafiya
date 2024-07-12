@@ -2,7 +2,7 @@ import React from "react";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import OwlCarousel from "react-owl-carousel";
-import "../CSS files/PatientStories.css";
+import "../CSS files/sections/PatientStories.css";
 import video from "../assets/video.mp4";
 import dr1 from "../assets/dr1.webp";
 

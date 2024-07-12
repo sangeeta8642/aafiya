@@ -1,7 +1,5 @@
 import React from "react";
-import "../CSS files/Home.css";
-import bg1 from "../assets/bg1.avif";
-import knee from "../assets/kneereplacement.jpg"
+import "../CSS files/sections/Home.css";
 
 function Home() {
   return (

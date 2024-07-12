@@ -1,5 +1,5 @@
 import React from "react";
-import "../CSS files/header.css";
+import "../CSS files/components/header.css";
 import logo from "../assets/logo.jfif";
 import medical from "../assets/medical_logo.jfif";
 import { header_icons } from "./index";

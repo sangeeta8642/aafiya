@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { faqQs } from "../components";
-import "../CSS files/FAQ.css";
+import "../CSS files/sections/FAQ.css";
 
 const FAQ = () => {
   const [expanded, setExpanded] = useState(null);

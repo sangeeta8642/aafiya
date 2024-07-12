@@ -2,11 +2,10 @@ import React from "react";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import OwlCarousel from "react-owl-carousel";
-import "../CSS files/Doctors.css";
+import "../CSS files/sections/Doctors.css";
 
 function Doctors() {
   const options = {
-    // margin:20,
     dots: true,
     responsiveClass: true,
     smartSpeed: 1000,

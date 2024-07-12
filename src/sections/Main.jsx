@@ -1,10 +1,10 @@
 import React from "react";
-import SubComp from "./SubComp";
-import FAQ from "../sub-components/FAQ";
-import { subcomp } from ".";
-import Form from "./Form";
-import "../CSS files/main.css"
-import PatientStories from "../sub-components/PatientStories";
+import SubComp from "../components/SubComp";
+import FAQ from "../sections/FAQ";
+import { subcomp } from "../components";
+import Form from "../components/Form";
+import "../CSS files/sections/main.css"
+import PatientStories from "../sections/PatientStories";
 const Main = () => {
   return (
     <section className="main">

@@ -1,5 +1,5 @@
 import React from 'react'
-import "../CSS files/SubComp.css"
+import "../CSS files/components/SubComp.css"
 
 export default function SubComp({title}) {
   return (
