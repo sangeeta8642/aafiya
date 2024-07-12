@@ -109,3 +109,94 @@
 .footer .bottomdiv .div img {
   width: 300px;
 }
+
+@media (max-width: 360px) {
+  .footer {
+    width: 301vw;
+    /* height: 80vh; */
+    background-color: #09292b;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    margin-left: 746px;
+  }
+  .footer .links {
+    width: 102%;
+    /* height: 50vh; */
+    /* background-color: black; */
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 3px solid #fff;
+    padding: 15px;
+    /* gap: 20px; */
+  }
+  .footer .bottomdiv {
+    width: 100vw;
+    padding-left: 200px;
+    /* height: 30vh; */
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    margin-top: 101px;
+    justify-content: space-evenly;
+  }
+  .footer .bottomdiv .div {
+    width: 267%;
+    /* height: 30vh; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    margin-left: -353px;
+  }
+  .footer .links .box {
+    width: 20rem;
+    height: 10rem;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 15px;
+    margin-top: -31rem;
+    margin-left: 46rem;
+    color: #09292b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer {
+    width: 136vw;
+    background-color: #09292b;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    margin-left: 157px;
+  }
+  .footer .links .box {
+    width: 20rem;
+    height: 10rem;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 15px;
+    margin-top: -32rem;
+    margin-left: 38rem;
+    color: #09292b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer .bottomdiv {
+    width: 140vw;
+    padding-left: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -92px;
+  }
+}

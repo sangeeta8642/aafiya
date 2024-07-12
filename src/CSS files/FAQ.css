@@ -34,3 +34,16 @@
     color: #424242;
     cursor: pointer;
   }
+  @media (max-width: 360px) {
+    .faq {
+      width: 391%;
+      margin-left: 49px;
+  }
+  }
+ 
+  @media (max-width: 767px) {
+    .faq {
+      width: 183%;
+      margin-left: 67px;
+  }
+  }

@@ -5,3 +5,27 @@
     /* align-items: center; */
     position: relative;
 }
+
+@media (max-width: 360px) {
+    .main {
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        /* align-items: center; */
+        position: relative;
+        flex-direction: column;
+    }
+  }
+
+  
+@media (max-width: 767px) {
+    .main {
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        /* align-items: center; */
+        position: relative;
+        flex-direction: column;
+    }
+  }
+  

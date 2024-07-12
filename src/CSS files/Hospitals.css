@@ -68,3 +68,42 @@ height: 320px;
     margin-top: -20px;
 
 }
+
+@media (max-width: 360px) {
+    .hospitals {
+        width: 329vw;
+        height: 120vh;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        margin-left: 727px;
+    }
+    .hospitals .owl-theme {
+        padding: 20px;
+        margin-top: 50px;
+        width: 1386px;
+        margin-left: 60px;
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+        margin-left: 52px;
+    }
+
+    /* .doctors .owl-theme {
+        padding: 73px;
+        margin-top: -50px;
+        width: 1473px;
+        margin-left: 227px;
+        
+    } */
+  }
+
+
+  @media (max-width: 767px) {
+    .hospitals {
+        width: 111vw;
+        height: 120vh;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        margin-left: 159px;
+    }
+  }

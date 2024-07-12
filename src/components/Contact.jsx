@@ -3,7 +3,7 @@ import "../CSS files/Contact.css";
 
 const Contact = () => {
   return (
-    <section className="contact" style={{ width: "100vw" }}>
+    <section className="contact">
       <h5>
         Don't hesitate, contact us for better help and services.{" "}
         <span style={{ color: "red", textDecoration: "underline" }}>

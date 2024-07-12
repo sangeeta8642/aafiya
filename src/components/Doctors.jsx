@@ -28,7 +28,7 @@ function Doctors() {
   return (
     <section
       className="doctors"
-      style={{ width: "100vw", textAlign: "center" }}
+      style={{  textAlign: "center" }}
     >
       <h2>Doctors</h2>
       <h3>
