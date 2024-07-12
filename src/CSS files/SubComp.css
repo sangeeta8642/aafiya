@@ -1,0 +1,38 @@
+.SubComp{
+    width:94vw;
+
+    display: flex;
+    justify-content: space-evenly
+    }
+
+.SubComp .div1{
+    width: 60%;
+}
+
+.SubComp .div2{
+    width: 20%;
+}
+
+.SubComp h2{
+    font-size: 32px;
+    text-transform: capitalize;
+}
+
+.SubComp p{
+    font-size: 17.5px;
+    font-weight: 500;
+    line-height: 32px;
+    word-wrap: break-word;
+    color: #535252;
+}
+
+
+.SubComp li{
+    list-style-type: circle;
+    font-size: 17.5px;
+    font-weight: 500;
+    line-height: 32px;
+    word-wrap: break-word;
+    color: #535252;
+}
+

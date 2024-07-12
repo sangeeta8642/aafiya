@@ -1,0 +1,67 @@
+.stories{
+    margin-left: 100px;
+    /* width: 60%; */
+}
+
+.stories h2{
+    font-size: 32px;
+}
+
+.stories .item{
+    height: 400px;
+    /* gap: 10px; */
+    width: 450px;
+    border: 2px solid #c7c5c5;
+    
+}.stories .item p{
+    width: 85%;
+    font-weight: 500;
+    font-size: 15px;
+    color: gray;
+    word-wrap: break-word;
+    padding-left: 25px;
+}
+
+
+
+.stories .item h4{
+    font-size: 20px;
+    margin-top:20px;
+    width: 60%;
+    padding-left: 25px;
+    color: #581b7a;
+}
+.stories .item video{
+    height: 200px;
+    width: 100%;
+    margin-top: -10px;
+}
+
+.stories .item img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.carddetails{
+    display: flex;
+    padding-left: 30px;
+    align-items: center;
+    width: 100%;
+    gap: 25px;
+}
+
+.drdetails{
+    display: flex;
+    flex-direction: column;
+}
+
+.drdetails h5{
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.drdetails p{
+    font-size: 15px;
+    margin-top: -40px;
+}

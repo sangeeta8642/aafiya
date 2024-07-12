@@ -1,0 +1,30 @@
+.overview{
+    width: 100vw;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.overview .div1,.div2{
+    width: 40%;
+}
+
+.overview .div1 p{
+    font-size: 17.5px;
+    font-weight: 500;
+    line-height: 32px;
+    word-wrap: break-word;
+    color: #535252;
+}
+
+.overview .div1 h2{
+    color: #161616;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+/* .overview .div1 h2 .dot{
+    font-size: 40px;
+    color: #fa3a3a;
+    
+} */

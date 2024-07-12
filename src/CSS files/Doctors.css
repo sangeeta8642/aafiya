@@ -1,0 +1,62 @@
+.doctors{
+    width: 100vw;
+    height: 100vh;
+    background-color:#d6f1e1;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.doctors h2{
+    color: red;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 600;
+    font-family: "Playfair Display",sans-serif;
+}
+
+.doctors h3{
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: -20px;
+}
+
+.doctors .owl-theme{
+    padding: 70px;
+    margin-top: -50px;
+}
+
+.doctors .item{
+    width: 400px;
+    height: 450px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: -2px 0px 15px 2px gray;
+    margin-bottom: 50px;
+}
+
+.doctors .item .subcard{
+    width: 360px;
+    height: 600px;
+    margin-top: 15px;
+    background-color: #fccfde;
+}
+
+.doctors .item .details{
+    text-align: center;
+}
+
+.doctors .item .details h5{
+    font-size: 18px;
+    margin-top: -20px;
+}
+
+.doctors .item .details p{
+    font-size: 18px;
+    font-weight: 600;
+    color: #646464;
+    margin-top: -20px;
+
+}

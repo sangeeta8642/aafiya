@@ -1,0 +1,38 @@
+.header {
+  height: 6rem;
+  width: 100vw;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  
+}
+.logo{
+  display: flex;
+  align-items: center;
+  width: 28%;
+  justify-content: space-between;
+  /* background-color: aqua; */
+}
+.header_icons {
+  width: 55%;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.header_text p{
+    font-size: 17px;
+    font-family:'Kumbh Sans',sans-serif;
+    font-weight: 600;
+    margin-top: 20px;
+    color: rgb(99, 98, 98);
+}
+
+.header_text h3{
+  font-size: 21px;
+    font-weight: 700;
+    /* font-family: Mukta; */
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+
+}

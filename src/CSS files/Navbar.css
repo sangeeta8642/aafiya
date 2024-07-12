@@ -1,0 +1,44 @@
+.NavBar{
+    display: flex;
+    background-color: #38a4ec;
+    height: 4rem;
+    width: 100vw;
+    z-index: 1;
+
+}
+
+.NavBar .navlinks{
+    width: 100vw;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    align-items: center;
+    width: 75%;
+    /* opacity: 0.9; */
+}
+
+.NavBar .search{
+    display: flex;
+    align-items: center;
+    background-color: #087cc9;
+    width: 17%;
+    color: #fff;
+    font-size: 20px;
+    gap: 10px;
+    padding-left: 20px;
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+
+}
+
+.NavBar a{
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+
+}

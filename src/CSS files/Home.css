@@ -1,0 +1,74 @@
+.home{
+    width: 100vw;
+    height: 23rem;
+    /* background-color: aqua; */
+    background-image: url('../assets/bg1.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position:center; */
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding-left: 80px;
+    z-index: 2;
+    
+
+}
+/* .home .knee{
+    width: 700px;
+    height: 365px;
+    background-color: aqua;
+    border-radius: 45% 0% 0% 45% ;
+    z-index: 2;
+    background-image: url('../assets/kneereplacement.jpg');
+    /* border: 10px solid #087cc9; */
+/* } */
+.home img{
+    border-radius: 100%;
+   /* overflow: hidden; */
+   margin-top: -50px;
+
+}
+
+
+.home div{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    width: 40%;
+    height: 70%;
+}
+
+.home h3{
+    /* font- : lighter; */
+    text-transform: capitalize;
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: 400;
+   }
+
+   .home h3 span{
+    color: #fc2c2c;
+    font-size: 23px;
+    margin-top: -3px;
+   }
+
+.home h2{
+    font-size: 50px;
+    margin-top: -5px;
+}
+.home p{
+    font-size: 18px;
+    margin-top: -20px;
+
+}
+
+.home button{
+    width: 200px;
+    text-transform: capitalize;
+    background-color: #38a4ec;
+}

@@ -1,0 +1,50 @@
+.contact {
+  width: 100vw;
+  /* height: 50vh; */
+  text-align: center;
+}
+
+.contact h5 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.contact .div {
+  width: 100vw;
+  height: 50vh;
+  margin-top: 80px;
+  background-color: #3faef8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact .div h5 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #fff;
+  margin-top: -50px;
+}
+
+.contact .div h2 {
+  font-size: 4rem;
+  color: #fff;
+  margin-top: -40px;
+}
+
+.contact .div button {
+  width: 15rem;
+  background-color: #087cc9;
+  /* margin-right: 20px; */
+}
+
+.contact .div .buttomdiv {
+    /* border-right: 5px solid #fff; */
+  display: flex;
+  gap:60px;
+}
+
+.buttomdiv h3{
+    color: #fff;
+}
